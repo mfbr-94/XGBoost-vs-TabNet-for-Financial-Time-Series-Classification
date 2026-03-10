@@ -1,0 +1,36 @@
+# ==============================================================================
+# requirements.txt
+# XGBoost vs TabNet for Financial Time Series Classification
+# ==============================================================================
+# Install with: pip install -r requirements.txt
+# ==============================================================================
+
+# Core Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning & Deep Learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+torch>=2.0.0
+pytorch-tabnet>=3.0.0
+
+# Data Acquisition
+yfinance>=0.2.30
+
+# Visualization
+plotly>=5.15.0
+matplotlib>=3.7.0
+kaleido>=0.2.1          # For static image export from Plotly
+
+# Utilities
+tqdm>=4.65.0            # Progress bars for yfinance downloads
+
+# Optional: Jupyter/Notebook Support (uncomment if needed)
+# jupyter>=1.0.0
+# notebook>=7.0.0
+# ipywidgets>=8.0.0
+
+# Optional: GPU Acceleration (uncomment if using CUDA)
+# torch>=2.0.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
